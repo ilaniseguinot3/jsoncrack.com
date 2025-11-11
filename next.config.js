@@ -7,7 +7,7 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
  * @type {import('next').NextConfig}
  */
 const config = {
-  output: "export",
+  // output: "export", // Commented out to enable API routes
   reactStrictMode: false,
   productionBrowserSourceMaps: true,
   compiler: {
